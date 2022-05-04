@@ -63,7 +63,9 @@ Group the hourly search data to plot the average traffic by the day of the week 
 Using hvPlot, visualize this traffic as a heatmap, referencing the index.hour as the x-axis and the index.dayofweek as the y-axis. Does any day-of-week effect that you observe concentrate in just a few hours of that day?
 
 Group the search data by the week of the year. Does the search traffic tend to increase during the winter holiday period (weeks 40 through 52)?
+![](Images/Heatmap.png)
 
+![](Images/Trends.png)
 
     Step 3: Relate the Search Traffic to Stock Price Patterns You mention your work on the search traffic data during a meeting with people in the finance group at the company. They want to know if any relationship between the search data and the company stock price exists, and they ask if you can investigate.
 
@@ -80,7 +82,9 @@ Create a new column in the DataFrame named “Lagged Search Trends” that offse
 “Hourly Stock Return”, which holds the percent change of the company's stock price on an hourly basis
 
 Review the time series correlation, and then answer the following question: Does a predictable relationship exist between the lagged search traffic and the stock volatility or between the lagged search traffic and the stock price returns?
+![](Images/Closing_Price.png)
 
+![](Images/Stock_Volatility.png)
 
 
     Step 4: Create a Time Series Model with Prophet Now, you need to produce a time series model that analyzes and forecasts patterns in the hourly search data. To do so, complete the following steps:
@@ -97,6 +101,7 @@ Which day of the week gets the most search traffic?
 
 What's the lowest point for search traffic in the calendar year?
 
+![](Images/Forecast.png)
 
 
     Step 5 (Optional): Forecast Revenue by Using Time Series Models A few weeks after your initial analysis, the finance group follows up to find out if you can help them solve a different problem. Your fame as a growth analyst in the company continues to grow!
