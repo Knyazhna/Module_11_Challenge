@@ -20,11 +20,11 @@ conda install pandas
 ```
 
 ```
-# Install the required libraries
-#!pip install pystan
-#!pip install fbprophet
-#!pip install hvplot
-#!pip install holoviews
+Install the required libraries
+!pip install pystan
+!pip install fbprophet
+!pip install hvplot
+!pip install holoviews
 ```
 
 ```
@@ -45,7 +45,7 @@ Run the provided code in the Install and import the required libraries and depen
 The first cell will install the necessary libraries into the Google Colab runtime. The second cell will import the dependencies for use in the notebook. With your workspace configured, you can begin the Challenge. The instructions are divided into four steps and an optional fifth step, as follows:
 
 
-*** Step 1: Find Unusual Patterns in Hourly Google Search Traffic The data science manager asks if the Google search traffic for the company links to any financial events at the company. Or, does the search traffic data just present random noise? To answer this question, pick out any unusual patterns in the Google search data for the company, and connect them to the corporate financial events.
+    Step 1: Find Unusual Patterns in Hourly Google Search Traffic The data science manager asks if the Google search traffic for the company links to any financial events at the company. Or, does the search traffic data just present random noise? To answer this question, pick out any unusual patterns in the Google search data for the company, and connect them to the corporate financial events.
 
 To do so, complete the following steps:
 
@@ -54,7 +54,7 @@ Read the search data into a DataFrame, and then slice the data to just the month
 Calculate the total search traffic for the month, and then compare the value to the monthly median across all months. Did the Google search traffic increase during the month that MercadoLibre released its financial results?
 
 
-*** Step 2: Mine the Search Traffic Data for Seasonality Marketing realizes that they can use the hourly search data, too. If they can track and predict interest in the company and its platform for any time of day, they can focus their marketing efforts around the times that have the most traffic. This will get a greater return on investment (ROI) from their marketing budget.
+    Step 2: Mine the Search Traffic Data for Seasonality Marketing realizes that they can use the hourly search data, too. If they can track and predict interest in the company and its platform for any time of day, they can focus their marketing efforts around the times that have the most traffic. This will get a greater return on investment (ROI) from their marketing budget.
 
 To that end, you want to mine the search traffic data for predictable seasonal patterns of interest in the company. To do so, complete the following steps:
 
@@ -65,7 +65,7 @@ Using hvPlot, visualize this traffic as a heatmap, referencing the index.hour as
 Group the search data by the week of the year. Does the search traffic tend to increase during the winter holiday period (weeks 40 through 52)?
 
 
-*** Step 3: Relate the Search Traffic to Stock Price Patterns You mention your work on the search traffic data during a meeting with people in the finance group at the company. They want to know if any relationship between the search data and the company stock price exists, and they ask if you can investigate.
+    Step 3: Relate the Search Traffic to Stock Price Patterns You mention your work on the search traffic data during a meeting with people in the finance group at the company. They want to know if any relationship between the search data and the company stock price exists, and they ask if you can investigate.
 
 To do so, complete the following steps:
 
@@ -83,7 +83,7 @@ Review the time series correlation, and then answer the following question: Does
 
 
 
-*** Step 4: Create a Time Series Model with Prophet Now, you need to produce a time series model that analyzes and forecasts patterns in the hourly search data. To do so, complete the following steps:
+    Step 4: Create a Time Series Model with Prophet Now, you need to produce a time series model that analyzes and forecasts patterns in the hourly search data. To do so, complete the following steps:
 
 Set up the Google search data for a Prophet forecasting model.
 
@@ -99,7 +99,7 @@ What's the lowest point for search traffic in the calendar year?
 
 
 
-*** Step 5 (Optional): Forecast Revenue by Using Time Series Models A few weeks after your initial analysis, the finance group follows up to find out if you can help them solve a different problem. Your fame as a growth analyst in the company continues to grow!
+    Step 5 (Optional): Forecast Revenue by Using Time Series Models A few weeks after your initial analysis, the finance group follows up to find out if you can help them solve a different problem. Your fame as a growth analyst in the company continues to grow!
 
 Specifically, the finance group wants a forecast of the total sales for the next quarter. This will dramatically increase their ability to plan budgets and to help guide expectations for the company investors.
 
