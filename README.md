@@ -20,7 +20,7 @@ conda install pandas
 ```
 
 ```
-Install the required libraries
+Install the required librariesHeat
 !pip install pystan
 !pip install fbprophet
 !pip install hvplot
@@ -52,7 +52,7 @@ To do so, complete the following steps:
 Read the search data into a DataFrame, and then slice the data to just the month of May 2020. (During this month, MercadoLibre released its quarterly financial results.) Use hvPlot to visualize the results. Do any unusual patterns exist?
 
 Calculate the total search traffic for the month, and then compare the value to the monthly median across all months. Did the Google search traffic increase during the month that MercadoLibre released its financial results?
-
+![May_Trend](May_Trend.png)
 
     Step 2: Mine the Search Traffic Data for Seasonality Marketing realizes that they can use the hourly search data, too. If they can track and predict interest in the company and its platform for any time of day, they can focus their marketing efforts around the times that have the most traffic. This will get a greater return on investment (ROI) from their marketing budget.
 
